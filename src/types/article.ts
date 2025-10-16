@@ -11,7 +11,7 @@ date: string;
 readingTime: string;
 displaySection?: ArticleDisplaySection;
 authorAvatarUrl?: string;
-tags?: string[];
+
 
 }
 
@@ -22,4 +22,5 @@ export interface Article {
     excerpt?: string;
     caption?: string;
     meta: ArticleMeta;
+    tags?: string[];
 }
